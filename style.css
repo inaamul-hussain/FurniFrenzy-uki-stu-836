@@ -11,14 +11,38 @@ body{
     display: flex;
     justify-content: space-around;
     
-    align-content: center;
+    
 }
 #sec-it1{
-    
-    /* text-align: justify; */
     width: 40%;
 }
-/* .section2-items {
-    padding-top: 100px; /* Ensure these are not overridden */
-    margin-top: 100px; /* Ensure these are not overridden */
-} */
+
+.section3{
+    background-color: #f5dcaf;
+}
+.sec2-btn, .sec3-btn{
+    background-color: #7C3030;
+    padding: 15px ;
+    border-radius: 45px;
+    /* border: 2px;
+    border-style: solid; */
+    border-color:aliceblue;
+    width: 150px;
+    font-size: larger;
+    font-weight: bold;
+    /* transition: background-color 0.3s, color 0.3s; */
+
+}
+.sec2-btn:hover{
+    background-color: #f5dcaf;
+    color: black !important;
+}
+
+.col-3{
+    align-items: center;
+}
+.itl, .price{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
