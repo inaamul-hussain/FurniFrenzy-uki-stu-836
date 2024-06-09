@@ -46,3 +46,12 @@ body{
     font-size: larger;
     font-weight: bolder;
 }
+
+.item-card{
+    transition: all 0.3s;
+}
+.item-card:hover{
+    transform: scale(1.15);
+    background-color: #923c3c;
+    border-radius: 10px;
+}
