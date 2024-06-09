@@ -28,12 +28,13 @@
     width: 150px;
     font-size: larger;
     font-weight: bold;
-    /* transition: background-color 0.3s, color 0.3s; */
+    transition: background-color 0.3s, color 0.3s;
 
 }
-.sec2-btn:hover{
+.sec2-btn:hover, .sec3-btn:hover{
     background-color: #f5dcaf;
     color: black !important;
+    border-color: black;
 }
 
 .col-3{
